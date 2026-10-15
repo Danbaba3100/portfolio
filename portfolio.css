@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: black;
+    line-height: 1.6;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 0 20p;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #ff5a1f;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    background-color: #e64a12;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.mylogo{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+.links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+.links a{
+    color: #1a1a1a;
+}
+
+.links a:hover{
+    color:#ff5a1f;
+}
+
+.links select{
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+.box{
+    background-color: gray;
+    text-align: center;
+    height: 350px;
+    color: white;
+    padding-top: 20px;
+}
+.sec-head {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.section-tag {
+    display: inline-block;
+    background: #ff4b0b;
+    color: white;
+    padding: 8px 22px;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+}
+
+.section-heading h2 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    color: #050505;
+}
+
+.heading-line {
+    width: 153px;
+    height: 8px;
+    background: #ff4b0b;
+    margin: 30px auto 0;
+}
+/* works*/
+
+
+.portfolio-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    
+}
+
+.portfolio-card {
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+}
+
+.portfolio-image {
+    height: 280px;
+    background: #eeeeee;
+    overflow: hidden;
+}
+
+.portfolio-image image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio-text {
+    padding: 15px;
+}
+.portfolio-text small {
+    color: #ff5a1f;
+}
+
+.portfolio-text h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.portfolio-text p {
+    color: #777;
+}
+/* ===== FOOTER INFORMATION ===== */
+
+.footer-info {
+    background: #111;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 60px;
+    padding: 60px 50px;
+}
+
+.footer-info h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-info h3::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    background: #ff5a1f;
+    margin-top: 8px;
+}
+
+
+/* ===== ABOUT ME ===== */
+
+.footer-about p {
+    color: #aaa;
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+
+/* ===== USEFUL LINKS ===== */
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ff5a1f;
+}
+
+
+/* ===== CONTACT INFO ===== */
+
+.footer-contact p {
+    color: #aaa;
+    margin-bottom: 12px;
+}
+
+
+/* ===== BOTTOM BAR ===== */
+
+.bottom-bar {
+    background: #111;
+    border-top: 1px solid #333;
+    color: #888;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bottom-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-bar a:hover {
+    color: #ff5a1f;
+}
+
+.bottom-bar span {
+    color: #aaa;
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+    .hero-box{display: block;
+
+    }
+    -----
+
+    .footer-info {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 50px 30px;
+    }
+
+    .bottom-bar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+}
+

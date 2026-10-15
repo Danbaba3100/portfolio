@@ -3,29 +3,600 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Frontend developer</title>
+    <title>Daniel frontend development</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-------Navbar-------> 
     <header>
-        <div class="head">
-            <a href=""><img src="images/logo.png" alt="Daniel logo"></a>
+        <div class="nav container menu">
+            <a href=""><img class="mylogo" src="images/logo.png" alt="faith.logo"></a>
             <nav class="links">
-                <a href=""> Home</a>
-                <a href=""> About</a>
-                <a href=""> Services</a>
-                <a href=""> Portfolio</a>
-                <a href=""> Experience</a>
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">SERVICES</a>
+                <a href="portfoilo.html">PORTFOLIO</a>
+                <a href="">EXPERIENCE</a>
                 <select>
-                    <option> English</option>
-                    <option> Youruba </option>
-                    <option> French </option>
+                    <option>ENGLISH</option>
+                    <option>YORUBA</option>
+                    <option>FRENCH</option>
                 </select>
             </nav>
-            <a href="" class="works"> View My works</a>
+            <a href="" class="btn">View My Works</a>
+        </div>           
+ </header>
+ 
+    <!-- ==== HERO ====-->
+ <section class="hero" id="home">
+    <!-- Blurred Orane in the background-->
+     <span class="blob blob-1"></span>
+     <span class="blob blob-2"></span>
+     <span class="blob blob-3"></span>
+     
+     <div class="hero-box container">
+
+        <div class="hero text">
+            <h1>Hi, i'm <span class="orange">Daniel</span></h1>
+            <p>
+                i'm a passionate Frontend Developer focused on building beautiful,
+                  interactive, and accesible web application, i love turning designs
+                into pixel-perfect, high-perfomative user experiences using modern
+                technologies
+            </p>
+            <a href="#portfolio" class="btn big">view works &rarr;</a>
+        </div>
+
+        <img src="images/profile.jpg" alt="Web development skills" class="hero-img">
+
+     </div>
+ </section>
+ <!-- ===== FLOATING ICONS ===== --> 
+  <div class="social">
+    <a href="#" class="twitter">t</a>
+    <a href="#" class="email">@</a>
+    <a href="#" class="phone">&#9742;</a>
+  </div> 
+
+  <!-- ===== BOTTOM BAR ===== -->
+   <div class="contact">
+    <a href="tel:+2348068804711">Call</a>
+    <a href="http:@//wa.me/2348068804711">Whatsapp</a>
+
+   </div>
+
+   <section class="about" id="about">
+  <div class="about-box container">
+
+    <div class="about-text">
+      <h2>I bring <span class="orange">3 years</span> of user experience expertise.</h2>
+      <p>
+        I am a frontend developer skilled in building responsive and accessible
+        web applications using React, Vue, Tailwind, JavaScript, HTML, and CSS.
+        I enjoy transforming design concepts into interactive user interfaces
+        and optimizing performance for a seamless user experience.
+      </p>
+      <a href="#" class="btn">&#8681; Download CV</a>
+    </div>
+
+    <!-- A grey card holding 6 small facts -->
+    <div class="info-card">
+      <div class="info">
+        <small>NAME</small>
+        <strong>Jimoh Daniel</strong>
+      </div>
+      <div class="info">
+        <small>UNIVERSITY</small>
+        <strong>Osun state university</strong>
+      </div>
+      <div class="info">
+        <small>COUNTRY</small>
+        <strong>Nigeria</strong>
+      </div>
+      <div class="info">
+        <small>LANGUAGES</small>
+        <strong>English</strong>
+      </div>
+      <div class="info">
+        <small>FREELANCE</small>
+        <strong>Available</strong>
+      </div>
+      <div class="info">
+        <small>ADDRESS</small>
+        <strong>Surulere, Lagos State</strong>
+      </div>
+    </div>
+
+  </div>
+  <!-- ================= EXPERIENCE ================= -->
+<section class="experience" id="experience">
+  <div class="container">
+
+    <h2 class="center">MY EXPERIENCE</h2>
+
+    <div class="grid-3">
+      <div class="card">
+        <h3>Digital Development Concepts</h3>
+        <p class="orange">Front-End Developer</p>
+        <small>June 2022 - Sep 2023</small>
+      </div>
+      <div class="card">
+        <h3>IMT Computer</h3>
+        <p class="orange">Frontend Developer/Tutor</p>
+        <small>2024 - Present</small>
+      </div>
+      <div class="card">
+        <h3>Onyx Data System</h3>
+        <p class="orange">Front-End Developer</p>
+        <small>2025</small>
+      </div>
+      <div class="card">
+        <h3>NetInterface Technologies</h3>
+        <p class="orange">Website Developer</p>
+        <small>2025</small>
+      </div>
+      <div class="card">
+        <h3>Social Media Africa</h3>
+        <p class="orange">Front-End Developer</p>
+        <small>2025</small>
+      </div>
+    </div>
+  </div>
+</section>
+<!---Services-->
+<section class="services" id="services">
+    <div class="sec-head">
+        <span class="section-tag" style="text-align: center;">Services</span>
+        <h2>My Services</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="services-container">
+
+        <!-- Service 1 -->
+        <div class="service-card">
+
+            <h3>Custom Website</h3>
+
+            <p>
+                From landing pages to custom solutions, I build unique
+                websites tailored to your specific business or personal needs.
+            </p>
 
         </div>
-    </header>
+
+
+        <!-- Service 2 -->
+        <div class="service-card">
+            <h3>E-commerce Website</h3>
+
+            <p>
+               Custom online stores built with secure payment
+                gateways, product management, and a seamless shopping
+                 experience for your customers.
+            </p>
+
+        </div>
+
+
+        <!-- Service 3 -->
+        <div class="service-card">
+
+            <h3>Hotel Management Websites</h3>
+
+            <p>Streamlined hotel operations with features like room
+               booking, guest management, check-in/check-out, etc
+               
+        </div>
+    </div>
+
+  </section>
+  <!---Satisfied Customer-->
+<section class="customer-container">
+  <div class="customer-card">
+    <h5 style="text-align: center;"> Satisified client</h5>
+    <p style="text-align: center;"> More than 15 customer <br>trusted me<br></p>
+  </div>
+  <div class="grid-3">
+    <div class="start">
+      <h2> 15</h2>
+      <p> Happy client</p>
+    </div>
+    <div class="start">
+      <h2> 15</h2>
+      <p> Project Completed </p>
+    </div>
+    <div class="start">
+      <h2> 15</h2>
+      <p> Worked with company</p>
+    </div>
+  </div>
+</section>
+<section class="how-i-work">
+    <div class="work-header">
+        <span class="work-badge">How I Work</span>
+
+        <h2>I prepare your projects in 3<br>stages.</h2>
+
+        <div class="orange-line"></div>
+    </div>
+
+    <div class="work-steps">
+
+        <!-- Step 1 -->
+        <div class="work-step">
+            <div class="step-number">01</div>
+            <h3>Research</h3>
+        </div>
+
+        <div class="step-arrow">
+            <span>-----</span>
+            <span></span>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="work-step">
+            <div class="step-number">02</div>
+            <h3>Design</h3>
+        </div>
+
+        <div class="step-arrow">
+            <span>-----</span>
+            <span></span>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="work-step active">
+            <div class="step-number">03</div>
+            <h3>Development</h3>
+        </div>
+
+    </div>
+</section>
+<section class="why-choose">
+    <div class="why-container">
+
+        <div class="why-header">
+            <span class="why-badge">Why Choose Me</span>
+
+            <h2>I specialize in frameworks UI for years.</h2>
+        </div>
+
+        <p class="why-description">
+            A front end library is being released every day and it is requested to
+            master these technologies. I also follow the market every day and follow
+            the updates of new frontend frameworks and programming frameworks.
+            It is easier for me to keep up with new technologies in projects.
+        </p>
+
+        <div class="skills-progress">
+
+            <!-- Design -->
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>Design</h3>
+                    <span>95%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 95%;"></div>
+                </div>
+            </div>
+
+            <!-- Development -->
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>Development</h3>
+                    <span>95%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 95%;"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+!-- ===== WORKS ===== -->
+<section class="portfolio" id="works">
+
+    <div class="sec-head">
+        <span class="section-tag">Works</span>
+        <h2>My Works</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="portfolio-container container">
+
+        <!-- Work 1 -->
+        <div class="portfolio-card">
+            <div class="portfolio-image">
+                <img src="images/image 1.jpeg" alt="Business image">
+            </div>
+
+            <div class="portfolio-text">
+                <small>Website Development</small>
+                <h3>Business Website</h3>
+                <p>
+                    A responsive website designed for a modern business.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work 2 -->
+        <div class="portfolio-card">
+            <div class="portfolio-image">
+                <img src="images/image 2.jpeg" alt="E-commerce image">
+            </div>
+
+            <div class="portfolio-text">
+                <small>Website Development</small>
+                <h3>E-commerce Website</h3>
+                <p>
+                    An online store with a simple and user-friendly interface.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work 3 -->
+        <div class="portfolio-card">
+            <div class="portfolio-image">
+                <img src="images/image 3.jpeg" alt="Dashboard image">
+            </div>
+
+            <div class="portfolio-text">
+                <small>Frontend Development</small>
+                <h3>Dashboard Design</h3>
+                <p>
+                    A clean dashboard interface created for easy navigation.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work 4 -->
+        <div class="portfolio-card">
+            <div class="portfolio-image">
+                <img src="images/images 4.jpg" alt="hotel image">
+            </div>
+
+            <div class="portfolio-text">
+                <small>Website Development</small>
+                <h3>Hotel Website</h3>
+                <p>
+                    A responsive hotel website with booking information.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work 5 -->
+        <div class="portfolio-card">
+            <div class="portfolio-image">
+                <img src="images/image 5.jpg" alt="blog image">
+            </div>
+
+            <div class="portfolio-text">
+                <small>Website Development</small>
+                <h3>Blog Website</h3>
+                <p>
+                    A clean and responsive blog website designed for
+                    sharing articles, stories and useful content.
+                </p>
+            </div>
+        </div>
+
+        <!-- Work 6 -->
+        <div class="portfolio-card">
+            <div class="portfolio-image">
+                <img src="image 6.png" alt="NetInterface image">
+            </div>
+
+            <div class="portfolio-text">
+                <small>Website Development</small>
+                <h3>NetInterface Technologies</h3>
+                <p>
+                    A professional technology website designed to showcase
+                    services, solutions and company information.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- ===== TESTIMONIAL ===== -->
+<section class="testimonial">
+
+    <div class="sec-head">
+        <span class="section-tag">Testimonial</span>
+        <h2>My Clients</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="testimonial-container container">
+
+        <div class="testimonial-card">
+            <p>
+                "Working with Faith was a great experience. She understood
+                what we needed and delivered a clean and responsive website."
+            </p>
+
+            <h3>IMT Computer</h3>
+            <small>Website Development</small>
+        </div>
+
+
+        <div class="testimonial-card">
+            <p>
+                "The website was easy to use and looked exactly how we
+                wanted it. The development process was smooth."
+            </p>
+
+            <h3>Fiber Optics Consults</h3>
+            <small>Website Development</small>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ====== USERS FORM ====== -->
+ 
+<div class="contact-container">
+    <div class="call-us">
+
+        <div>
+            <h4>CALL US</h4>
+            <p>+2349045645379</p>
+        </div>
+
+        <div>
+            <h4>WHATSAPP</h4>
+            <p>+2349045645379</p>
+        </div>
+
+        <div>
+            <h4>EMAIL</h4>
+            <p>dj407938@gmail.com</p>
+        </div>
+
+        <div>
+            <h4>OFFICE</h4>
+            <p>51, Timothy Afolabi Crescent, Alagbado, Lagos</p>
+        </div>
+
+    </div>
+
+
+    <!-- FORM -->
+    <form class="contact-form">
+
+        <label>NAME</label>
+        <textarea placeholder="Enter your name"></textarea>
+
+        <label>EMAIL</label>
+        <textarea placeholder="Enter your email"></textarea>
+
+        <label>PROJECT</label>
+        <textarea placeholder="Enter your project description"></textarea>
+
+        <button type="submit">SUBMIT</button>
+
+    </form>
+
+</div>
+        
+<!-- ===== FAQ ===== -->
+<section class="faq">
+
+    <div class="sec-head">
+        <span class="section-tag">FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="faq-container container">
+
+        <div class="faq-card">
+            <h3>What kind of websites do you build?</h3>
+            <p>
+                I build business websites, portfolio websites,
+                e-commerce websites, and other custom websites.
+            </p>
+        </div>
+
+
+        <div class="faq-card">
+            <h3>How long does it take to build a website?</h3>
+            <p>
+                The time depends on the size and features of the
+                project. Simple websites can be completed faster.
+            </p>
+        </div>
+
+
+        <div class="faq-card">
+            <h3>What technologies do you use?</h3>
+            <p>
+                I work with HTML, CSS, JavaScript and modern
+                frontend technologies such as React.
+            </p>
+        </div>
+
+
+        <div class="faq-card">
+            <h3>Do you work on both design and development?</h3>
+            <p>
+                Yes. I can work with an existing design or create
+                a simple interface before development.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ===== FOOTER INFORMATION ===== -->
+
+<section class="footer-info">
+
+    <div class="footer-about">
+
+        <h3>About Me</h3>
+
+        <p>
+            A passionate Frontend Developer focused on creating
+            responsive, user-friendly and accessible web experiences
+            using modern technologies.
+        </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <h3>Useful Links</h3>
+
+        <a href="#home">My Team</a>
+        <a href="#services">My Services</a>
+        <a href="#experience">My Resume</a>
+        <a href="#works">My Works</a>
+        <a href="#contact">Get in Touch</a>
+        <a href="#">Privacy Policy</a>
+
+    </div>
+
+
+    <div class="footer-contact">
+
+        <h3>Contact Info</h3>
+
+        <p>Surulere, Lagos</p>
+        <p>dj407938@gmail.com</p>
+        <p>+234 806 880 4711</p>
+        <p> 9am - 4pm</p>
+
+    </div>
+
+</section>
+
+
+<!-- ===== BOTTOM BAR ===== -->
+
+<div class="bottom-bar">
+
+    <p>© 2025 Daniel Frontend Development.</p>
+
+    <a href="tel:+2349045645379">Call</a>
+
+    <a href="https://wa.me/2349045645379">WhatsApp</a>
+
+    <span>Daniel</span>
+</section>
+<script src="dan.js"></script>
 </body>
 </html>
+
+
+
